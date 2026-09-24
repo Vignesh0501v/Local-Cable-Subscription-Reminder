@@ -5,6 +5,34 @@ A web app for local cable TV operators to send monthly payment reminders (SMS/Wh
 UPI/cash payments, and track the full subscription lifecycle across four roles: Customer,
 Collector, Operator, and Admin.
 
+## Screenshots
+
+*Screenshots use demo data; phone numbers are masked.*
+
+**Admin dashboard** — live customer counts, pending payments, and revenue
+
+![Admin dashboard](docs/screenshots/admin-dashboard.png)
+
+**Customer management** — plans, collectors, and one-click payment reminders
+
+![Admin customers](docs/screenshots/admin-customers.png)
+
+**Customer payment page** — opened from the SMS link, no login needed
+
+<img src="docs/screenshots/customer-payment-page.png" alt="Customer payment page on mobile" width="320">
+
+**Collector** — verify UPI payments customers have submitted
+
+![Collector verification](docs/screenshots/collector-verify-payments.png)
+
+**Operator** — activate verified customers and mark them subscribed
+
+![Operator queue](docs/screenshots/operator-subscription-queue.png)
+
+**Reports** — monthly revenue, cash vs online
+
+![Revenue reports](docs/screenshots/admin-revenue-reports.png)
+
 ## Run everything with one command (Docker)
 
 Requires Docker Desktop.
